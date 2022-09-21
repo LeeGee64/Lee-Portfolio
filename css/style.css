@@ -233,7 +233,7 @@ a {
   }  
   
   .slide {
-    padding: 0rem 1rem;
+    padding: 1rem;
   }
 
   .card-gallery {
@@ -253,11 +253,12 @@ a {
     display: flex;
     flex-direction: column;
     justify-items: center;
+    text-align: center;
   }
 
   #sm-links-decals {
     display: flex;
     flex-direction: row;
-    column-gap: 5rem;
+    column-gap: 2rem;
 }
 }
