@@ -245,14 +245,15 @@ a {
     height: 50%;
   }
 
-  .sm-links {
+  #sm-links {
     display: flex;
     flex-direction: column;
     justify-items: center;
   }
 
-  .sm-links-decals {
+  #sm-links-decals {
     display: flex;
     flex-direction: row;
-  }
+    column-gap: 2rem;
+}
 }
