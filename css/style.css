@@ -55,7 +55,7 @@ header {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 499px){
     .main {
         max-width: 100vw;
         min-height: 100vh;
@@ -103,7 +103,7 @@ nav ul {
     text-shadow: rgb(255,255,255) 2px 2px 2px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 499px){
     nav {align-self: center; /*justify-content: center;*/}
     .logo {align-self: center;}
     .pageLink {margin: 0;}
@@ -226,7 +226,7 @@ a {
     color: rgb(150,150,150);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 499px){
   .card-gallery {width: 100%} 
   .card-description {
     overflow: scroll;
