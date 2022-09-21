@@ -230,5 +230,12 @@ a {
   .card-gallery, .slide {width: 100%} 
   .card-description {
     overflow: scroll;
-  }     
+  }   
+  .sample-card {
+    height: 80%;
+  }
+
+  .card-visual {
+    height: 50%;
+  }
 }
