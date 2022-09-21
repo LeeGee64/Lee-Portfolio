@@ -227,7 +227,7 @@ a {
 }
 
 @media screen and (max-width: 600px){
-  .card-gallery {width: 100%} 
+  .card-gallery, .slide {width: 100%} 
   .card-description {
     overflow: scroll;
   }     
