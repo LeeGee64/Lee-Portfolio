@@ -244,4 +244,15 @@ a {
   .card-visual {
     height: 50%;
   }
+
+  .sm-links {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .sm-links-decals {
+    display: flex;
+    flex-direction: row;
+  }
 }
