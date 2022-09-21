@@ -231,6 +231,11 @@ a {
   .card-description {
     overflow: scroll;
   }   
+
+  .card-gallery {
+    justify-content: center;
+  }
+
   .sample-card {
     min-height: 80%;
     width: 40%;
