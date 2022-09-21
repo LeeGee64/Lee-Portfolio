@@ -232,7 +232,8 @@ a {
     overflow: scroll;
   }   
   .sample-card {
-    height: 80%;
+    min-height: 80%;
+    width: 40%;
   }
 
   .card-visual {
