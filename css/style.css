@@ -94,13 +94,13 @@ nav ul {
 .pageLink {
     font-weight: 200;
     color: rgb(255,255,255);
-    text-shadow: rgb(255,255,255) 2px 2px 2px;
     letter-spacing: .1rem;
     text-decoration: none;
 }
 
 .pageLink:hover {
     font-weight: 700;
+    text-shadow: rgb(255,255,255) 2px 2px 2px;
 }
 
 @media screen and (max-width: 768px){
@@ -208,6 +208,8 @@ p {
     text-align: center;
     padding: 0rem;
     margin-top: 1rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px;
 }
 
 .card-description {
