@@ -227,5 +227,8 @@ a {
 }
 
 @media screen and (max-width: 768px){
-  .card-gallery {width: 100%}      
+  .card-gallery {width: 100%} 
+  .card-description {
+    overflow: scroll;
+  }     
 }
