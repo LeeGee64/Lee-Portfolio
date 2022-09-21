@@ -61,7 +61,9 @@ header {
         min-height: 100vh;
     } 
     
-    /* header {} */
+    header {
+        margin: 0;
+    }
 }
 
 /******************************************
@@ -104,7 +106,7 @@ nav ul {
 }
 
 @media screen and (max-width: 600px){
-    nav {align-self: center; /*justify-content: center;*/}
+    nav {align-self: center; justify-content: center;}
     .logo {align-self: center;}
     .pageLink {margin: 0;}
 }
@@ -226,6 +228,12 @@ a {
     color: rgb(150,150,150);
 }
 
+#sm-links-decals {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
 @media screen and (max-width: 600px){
   .card-gallery, .slide {width: 100%} 
   .card-description {
@@ -257,8 +265,6 @@ a {
   }
 
   #sm-links-decals {
-    display: flex;
-    flex-direction: row;
     column-gap: 2rem;
 }
 }
