@@ -103,7 +103,7 @@ nav ul {
 
 .pageLink:hover {
     font-weight: 700;
-    text-shadow: rgb(255,255,255) 2px 2px 2px;
+    /* text-shadow: rgb(255,255,255) 2px 2px 2px; */
 }
 
 @media screen and (max-width: 786px){
