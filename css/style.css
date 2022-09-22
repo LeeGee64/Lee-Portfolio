@@ -63,6 +63,7 @@ header {
     
     header {
         margin: 0;
+        width: 7rem;
     }
 }
 
@@ -246,16 +247,17 @@ a {
 
   .card-gallery {
     justify-content: center;
+    flex-direction: column;
   }
 
-  .sample-card {
+  /* .sample-card {
     min-height: 80%;
     width: 50%;
   }
 
   .card-visual {
     height: 50%;
-  }
+  } */
 
   #sm-links {
     display: flex;
