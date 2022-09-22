@@ -107,7 +107,10 @@ nav ul {
 }
 
 @media screen and (max-width: 600px){
-    nav ul {align-items: center; padding: 0;}
+    nav {align-items: center;}
+
+    nav ul {padding: 0;}
+
     .logo {align-self: center;}
     .pageLink {margin: 0; padding: 0; width: 100%;}
 }
@@ -241,7 +244,7 @@ a {
     overflow: scroll;
   }  
   
-  .slide {
+  .slide, .slide-black {
     padding: 1rem;
   }
 
