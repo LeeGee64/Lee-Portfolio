@@ -106,9 +106,9 @@ nav ul {
 }
 
 @media screen and (max-width: 600px){
-    nav {align-items: center; list-style-type: none;}
+    nav {align-items: center; padding: 0;}
     .logo {align-self: center;}
-    .pageLink {margin: 0;}
+    .pageLink {margin: 0; padding: 0; width: 100%;}
 }
 
 /* ============== Content =============== */
@@ -250,7 +250,7 @@ a {
 
   .sample-card {
     min-height: 80%;
-    width: 40%;
+    width: 50%;
   }
 
   .card-visual {
