@@ -248,7 +248,7 @@ a {
   .card-gallery {
     justify-content: center;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 3.5rem;
   }
 
   .sample-card {
