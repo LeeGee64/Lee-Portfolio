@@ -63,7 +63,7 @@ header {
     
     header {
         margin: 0;
-        width: 7rem;
+        width: 7.5rem;
     }
 }
 
@@ -270,6 +270,7 @@ a {
   }
 
   #sm-links-decals {
+    margin-top: 1.5rem; 
     column-gap: 2rem;
 }
 }
