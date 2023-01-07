@@ -182,6 +182,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 1.5rem;
     column-gap: 3rem;
     width: 90%;
 }
@@ -200,10 +201,11 @@ p {
 
 .sample-card:hover {
     box-shadow: 0px 0px 10px 10px rgb(150,150,150);
+    transform:  scale(1.1);
 }
 
 .card-visual {
-    height: 12rem;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -276,4 +278,16 @@ a {
     margin-top: 1.5rem; 
     column-gap: 2rem;
 }
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+
+}
+
+.skill-logo {
+    height: 3rem;
+    width: 3rem;   
 }
