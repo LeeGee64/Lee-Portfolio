@@ -283,11 +283,26 @@ a {
 .skill-grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 1rem;
+    gap: 3rem;
 
 }
 
 .skill-logo {
-    height: 3rem;
-    width: 3rem;   
+    height: 6rem;
+    width: 6rem;   
+}
+
+.skill-logo:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 799px){
+    .skill-grid {
+        gap: 2rem;
+    }
+
+    .skill-logo {
+        height: 4rem;
+        width: 4rem;
+    }
 }
