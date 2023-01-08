@@ -1,4 +1,4 @@
-# Lee-Porfolio
+# Lee-Portfolio
 
 A simple yet comprehensive display of my coding projects with links to websites and app deployments.  
 
